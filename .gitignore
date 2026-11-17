@@ -1,0 +1,2 @@
+# The output directory main.ts writes (game/, screenshots/ and dossier.json), not part of the entry.
+out/

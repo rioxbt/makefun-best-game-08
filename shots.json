@@ -1,0 +1,10 @@
+{
+  "name": "last-shot-scenes",
+  "note": "The screenshot scenes: each render in screenshots/ is the game's own canvas at the query below, played by its own rules and frozen on a fixed step. Rebuild one by serving game/ statically and opening the URL in desktop Chrome.",
+  "size": [960, 540],
+  "shots": [
+    { "name": "1-start.jpg", "cover": true, "query": "?shot=start&seed=13", "shows": "title screen over a real mid-wave frame" },
+    { "name": "2-play.jpg", "query": "?shot=play&seed=6", "shows": "wave 6 of 8 in progress, shooting, combo, blood half spent" },
+    { "name": "3-end.jpg", "query": "?shot=win&seed=6", "shows": "the win screen: all 8 waves cleared, with the run's statistics" }
+  ]
+}
